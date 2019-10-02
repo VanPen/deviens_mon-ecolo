@@ -23,7 +23,6 @@ class HomepageController extends AbstractController
 
         return $this->render('base.html.twig', [
             'number' => $start,
-            'entity' => $entity->getUsername(),
             'id'     => $entity->getId(),
 
         ]);
